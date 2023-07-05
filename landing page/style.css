@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+header {
+    background-color: rgb(255, 238, 213);
+    height: 10vh;
+    width: 99vw;
+    background-size: cover;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.items-center {
+    align-items: center;
+    font-family: rowdies;
+    color: rgb(92, 35, 3);
+    font-size: 45px;
+    flex-wrap: wrap;
+}
+.justify-between {
+    justify-content: space-around;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    min-height: 50px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+ul li {
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    background-color: rgb(102, 51, 3);
+    flex-wrap: wrap;
+    padding: 5px 40px;
+    color: rgb(255, 255, 255);
+    border: 2px solid transparent;
+    transition: 1 ease;
+    border-radius: 23px;
+}
+ul li a:hover{
+    color: rgb(31, 15, 1);
+    background-color: rgb(129, 7, 7);
+    border: 2px solid rgb(139, 71, 8);
+}
+ul li a{
+    text-decoration: none;
+}
+.title-1{
+    font-size: 45px;
+    color: rgb(240, 197, 140);
+    
+}
+.home{
+    height: 375px;
+    padding: 70px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(250, 179, 71, 0.3)),url(pic.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: right;
+}
+.home p{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    padding-top: 10px;
+}
+span{
+    color: rgb(255, 255, 255);
+    font-family: rock salt;
+    font-size: 39px;
+}
+.home button{
+    color: rgb(238, 179, 130);
+    background-color: rgb(124, 58, 3);
+    font-size: 22px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-right: 150px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .4s ease;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid rgb(71, 16, 2);
+}
+footer{
+    padding: 8px;
+    color: rgb(94, 50, 0);
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+}
