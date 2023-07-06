@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cafe</title>
+  </head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
     <div class="container mx-auto">
-        <header>
+        <header class="header">
             <nav class="flex justify-between">
-                <div class="flex items-center"><i class="fa-solid fa-mug-hot fa-lg" style="color: #863b09; width: 10px; height: 10px; margin-top: 28px; margin-bottom: 10px;"></i></div>
-                <div class="flex items-center">COFFEETALES</div>
-                <ul>
-                    <li><a href="#" style="color: beige;"><i class="fa-solid fa-house"></i>  Home </a></li>
-                    <li><a href="#" style="color: beige;"><i class="fa-solid fa-caret-down"></i> About Us</a> </li>
-                    <li><a href="#" style="color: beige;"><i class="fa-solid fa-caret-down"></i> Contact Us</a> </li>
-                    <li><a href="#" style="color: beige;"><i class="fa-solid fa-caret-down"></i> Products</a> </li>
+                <div class="flex items-center">
+                    <i class="fa-solid fa-mug-hot fa-lg"
+                        style="color: #863b09; width: 10px; height: 10px; margin-top: 20px; margin-bottom: 10px;"></i>
+                </div>
+                <div class="flex items-center"><span id="span">COFFEE</span>TALES</div>
+            
+                <ul class="responsive">
+                    <li><a href="#"><i class="fa-solid fa-house"></i> Home </a></li>
+                    <li><a href="#"><i class="fa-solid fa-caret-down"></i> About Us</a> </li>
+                    <li><a href="#"><i class="fa-solid fa-caret-down"></i> Contact Us</a> </li>
+                    <li><a href="#"><i class="fa-solid fa-caret-down"></i> Products</a> </li>
                 </ul>
             </nav>
         </header>
@@ -33,12 +38,66 @@
         <p> We provide a variety of unique and best Coffee</p>
         <button type="button">Shop Now</button>
     </div>
+    <section class="product" id="product">
+        <h1 class="heading"> MENU </h1>
+        <hr>
+        <div class="box-container">
+            <div class="box">
+                <h1> ESPRESSO</h1>
+                <img src="espresso-shot.jpg">
+                <span class="price"> $20/- </span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1> CAPPUCCINO </h1>
+                <img src="CAPPUCCINO-COFFEE.jpg">
+                <span class="price"> $10/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1> FRAPPE </h1>
+                <img src="frappe.jpg">
+                <span class="price"> $25/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1> BROWNIES </h1>
+                <img src="brownies.jpg">
+                <span class="price"> $15/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1>CHEESECAKE</h1>
+                <img src="cheesecake.jfif">
+                <span class="price"> $20/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1>SANDWHICH</h1>
+                <img src="sandwhich.jfif">
+                <span class="price"> $15/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1>HOT CHOCO</h1>
+                <img src="hot chocolate.webp">
+                <span class="price"> $10/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+            <div class="box">
+                <h1>MOCHA</h1>
+                <img src="mocha.webp">
+                <span class="price"> $25/-</span>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+         </div>
+    </section>
     <div style="height: 10px;">
-    <footer>
-        Copyright &copy; COFFEETALES.COM | All Rights Reserved
-    </footer>
+        <footer>
+            Copyright &copy; COFFEETALES.COM | All Rights Reserved
+        </footer>
     </div>
-  
+    
 </body>
 
 </html>
